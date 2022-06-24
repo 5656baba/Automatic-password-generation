@@ -40,7 +40,7 @@ loop do
   returned_password_text = password(input_number_of_characters, input_number_of_symbols, input_number_of_numbers)
   puts "生成された暗号文:「#{returned_password_text}」"
 
-  puts "もう一度やりますか？「はい => y」か「いいえ => n」を入力"
+  puts "作り直しますか？「はい => y」か「いいえ => n」を入力"
   restart = gets.chomp
   if restart == "n"
     puts "プログラムを終了しました"
