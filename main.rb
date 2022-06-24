@@ -37,7 +37,7 @@ loop do
   puts "記号の数を入力"
   input_number_of_symbols = gets.to_i
 
-  returned_password_text = password(input_number_of_characters, input_number_of_symbols, input_number_of_numbers)
+  returned_password_text = password(input_number_of_characters, input_number_of_numbers, input_number_of_symbols)
   puts "生成された暗号文:「#{returned_password_text}」"
 
   puts "作り直しますか？「はい => y」か「いいえ => n」を入力"
